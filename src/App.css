@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.mainWrapper{
+    display: flex;
+}
+.right{
+    width: 80%;
+    min-height: 100vh;
+    border: 1px solid;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+}
+.left{
+    border: 1px solid white;
+    width: 20%;
+    min-height: 100vh;
+    padding:10px;
+    background-color: #161b22;
+
+}
+
+.noteHeadding{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(228, 237, 240);
+    margin:10px;
+    padding:25px;
+    border-radius: 10px;
+}
+.markDowneditor{
+    height: 100%;
+    width: 100%;
+}
+.temp:hover {
+    cursor: pointer;
+}
+.temp-Active{
+    color:red;
+}
+.temp-default{
+    color:black;
+}
+.addButton{
+    width: 80%;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+    margin:25px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.deleteButton{
+    width: 30%;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color: #161b22;
+}
+.deleteButton:hover{
+    background-color:#383a3d ;
+}
+h1{
+    text-align: center;
+    margin:20%;
+    font-size: 35px;
+}
